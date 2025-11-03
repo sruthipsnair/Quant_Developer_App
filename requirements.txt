@@ -1,0 +1,25 @@
+# Core scientific and data stack
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+statsmodels>=0.14
+scikit-learn>=1.3
+
+# Visualization and dashboard
+plotly>=5.20
+streamlit>=1.36
+
+# Configuration and utilities
+pyyaml>=6.0
+
+# Optional web + API layer (FastAPI / Uvicorn)
+fastapi>=0.110
+uvicorn>=0.30
+
+# For SQLite helpers
+sqlite-utils>=3.36
+
+# Type hints and linting (optional but recommended)
+mypy>=1.5
+types-PyYAML>=6.0
+types-requests>=2.31
