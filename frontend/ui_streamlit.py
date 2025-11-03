@@ -123,3 +123,4 @@ with exp_col2:
     st.download_button("Download merged bars CSV", csv_bars, file_name=f"{sym_y}-{sym_x}-{tf}-bars.csv")
 
 st.caption("Tip: Use the provided browser collector (tools/binance_browser_collector_save_test.html) to save NDJSON, then ingest above.")
+
