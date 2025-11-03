@@ -46,3 +46,5 @@ def rolling_correlation(a: pd.Series, b: pd.Series, window: int = 60) -> pd.Seri
     if len(df) < window:
         return pd.Series(index=df.index, dtype=float)
     return df["a"].rolling(window).corr(df["b"])
+
+
