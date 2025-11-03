@@ -35,4 +35,4 @@ Open the Streamlit URL shown in the terminal (usually http://localhost:8501).
 
 ## Export Results
 
-Use the download buttons in the app to save CSV files of results.
+Use the Download buttons in the app to save CSV files of results.
